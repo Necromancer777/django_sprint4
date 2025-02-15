@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-!154z99eok!xn9ni%nwhe9o^n!eqfa=^ds6ypht#gtubblh&w*'
-LOGIN_REDIRECT_URL = 'blog:index'    
+LOGIN_REDIRECT_URL = 'blog:index'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_bootstrap5',
-    
+
 ]
 
 MIDDLEWARE = [
@@ -86,7 +86,7 @@ DATABASES = {
     }
 }
 
-MEDIA_ROOT = BASE_DIR / 'media' 
+MEDIA_ROOT = BASE_DIR / 'media'
 
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 

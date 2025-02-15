@@ -80,11 +80,11 @@ class Post(BasedModel):
 
     def __str__(self):
         return self.title
-    
+
     @property
     def comment_count(self):
         return self.comments.count()
-    
+
 
 class Comments(models.Model):
     text = models.TextField('Текст комментария')
