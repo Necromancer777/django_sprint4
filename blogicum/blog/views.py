@@ -8,7 +8,6 @@ from django.urls import reverse_lazy, reverse
 from django.views.generic import ListView, DeleteView, CreateView, UpdateView, DetailView
 from django.utils import timezone
 from django.http import Http404
-from django.http import HttpResponse, HttpResponseRedirect
 from django.contrib.auth.mixins import LoginRequiredMixin
 
 class BlogMixin:
